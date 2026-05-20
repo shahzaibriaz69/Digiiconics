@@ -109,28 +109,60 @@
     </section>
 
     <section id="workflow" class="workflow-section">
-        <h2 class="section-title">How We Work</h2>
-        <div class="workflow-grid">
-            <div class="step-card">
-                <div class="step-num">01</div>
-                <h3>Discover</h3>
-                <p>Understanding your business goals and audience.</p>
+        <div class="workflow-container">
+
+            <div class="workflow-left">
+                <h2>We Fix Your Entire <span>Digital Growth System</span></h2>
+                <p>We build complete revenue systems that flawlessly connect strategy, design, development, and
+                    optimization automation algorithms.</p>
             </div>
-            <div class="step-card">
-                <div class="step-num">02</div>
-                <h3>Plan</h3>
-                <p>Creating a tailored digital strategy.</p>
+
+            <div class="workflow-center">
+                <div class="process-node">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <span>Discover</span>
+                </div>
+
+                <div class="pulse-arrow"><i class="fa-solid fa-arrow-down"></i></div>
+
+                <div class="process-node">
+                    <i class="fa-solid fa-layer-group"></i>
+                    <span>Plan</span>
+                </div>
+
+                <div class="pulse-arrow"><i class="fa-solid fa-arrow-down"></i></div>
+
+                <div class="process-node">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <span>Execute</span>
+                </div>
+
+                <div class="pulse-arrow"><i class="fa-solid fa-arrow-down"></i></div>
+
+                <div class="process-node highlight-node">
+                    <i class="fa-solid fa-rocket"></i>
+                    <span>Deliver Now</span>
+                </div>
             </div>
-            <div class="step-card">
-                <div class="step-num">03</div>
-                <h3>Execute</h3>
-                <p>Implementing campaigns and solutions with precision.</p>
+
+            <div class="workflow-right">
+                <div class="system-card">
+                    <h4>Discover & Analyze</h4>
+                    <p>Understanding your business goals, target audience, and current market positioning with absolute
+                        clarity.</p>
+                </div>
+                <div class="system-card">
+                    <h4>Tailored Blueprint</h4>
+                    <p>Creating a detailed, conversion-focused digital strategy designed specifically for scaling your
+                        brand.</p>
+                </div>
+                <div class="system-card">
+                    <h4>Precision Execution</h4>
+                    <p>Implementing high-performance campaigns, modern web structures, and solutions with surgical
+                        precision.</p>
+                </div>
             </div>
-            <div class="step-card">
-                <div class="step-num">04</div>
-                <h3>Deliver</h3>
-                <p>Measuring performance and ensuring results.</p>
-            </div>
+
         </div>
     </section>
 
