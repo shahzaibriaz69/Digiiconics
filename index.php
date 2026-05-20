@@ -230,6 +230,34 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['book_appointment'])) {
 
     </section>
 
+    <section id="faq" class="faq-section">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">What services does Digiiconics offer? <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">We specialize in Digital Marketing, Web Development, App Development, and Social
+                    Media Marketing.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">How long does a project take? <i class="fa-solid fa-chevron-down"></i></div>
+                <div class="faq-answer">Timelines depend on project scope. Small campaigns may take weeks, while full
+                    development projects can take months.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">What makes Digiiconics different? <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">We focus on performance-driven strategies, combining creativity, technology, and
+                    data to deliver measurable results.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">How do I get started? <i class="fa-solid fa-chevron-down"></i></div>
+                <div class="faq-answer">Simply book an appointment, contact us directly, or click "Get Started Today" to
+                    begin your project discussion.</div>
+            </div>
+        </div>
+    </section>
+
     <script src="script.js"></script>
 
 </body>
