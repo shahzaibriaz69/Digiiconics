@@ -34,6 +34,25 @@
         </div>
     </header>
 
+    <section class="stats-section">
+        <h2 class="section-title">Our Success in Numbers</h2>
+        <div class="stats-grid">
+            <div class="stat-card">
+                <h3>5+ Years</h3>
+                <p>Digital Expertise - Delivering impactful digital solutions and marketing strategies.</p>
+            </div>
+            <div class="stat-card">
+                <h3>300+</h3>
+                <p>Projects Delivered - Successful campaigns, websites, and applications.</p>
+            </div>
+            <div class="stat-card">
+                <h3>150+</h3>
+                <p>Happy Clients - Trusted by startups and growing businesses worldwide.</p>
+            </div>
+        </div>
+
+    </section>
+
 </body>
 
 </html>
