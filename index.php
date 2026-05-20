@@ -108,6 +108,32 @@
         </div>
     </section>
 
+    <section id="workflow" class="workflow-section">
+        <h2 class="section-title">How We Work</h2>
+        <div class="workflow-grid">
+            <div class="step-card">
+                <div class="step-num">01</div>
+                <h3>Discover</h3>
+                <p>Understanding your business goals and audience.</p>
+            </div>
+            <div class="step-card">
+                <div class="step-num">02</div>
+                <h3>Plan</h3>
+                <p>Creating a tailored digital strategy.</p>
+            </div>
+            <div class="step-card">
+                <div class="step-num">03</div>
+                <h3>Execute</h3>
+                <p>Implementing campaigns and solutions with precision.</p>
+            </div>
+            <div class="step-card">
+                <div class="step-num">04</div>
+                <h3>Deliver</h3>
+                <p>Measuring performance and ensuring results.</p>
+            </div>
+        </div>
+    </section>
+
 </body>
 
 </html>

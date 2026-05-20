@@ -278,7 +278,7 @@ span { color: var(--accent-gold); }
 
 .services-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(372px, 1fr));
     gap: 2.5rem;
 }
 
@@ -340,4 +340,32 @@ span { color: var(--accent-gold); }
 
 .service-card:hover::after {
     width: 100%;
+}
+
+.workflow-section {
+    padding: 6rem 8%;
+    background-color: var(--bg-secondary);
+}
+
+.workflow-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.step-card {
+    background: var(--bg-primary);
+    padding: 2rem;
+    border-radius: 8px;
+    position: relative;
+}
+
+.step-num {
+    font-size: 3rem;
+    font-weight: 800;
+    color: rgba(230, 185, 64, 0.1);
+    position: absolute;
+    top: 10px;
+    right: 20px;
 }
