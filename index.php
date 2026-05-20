@@ -1,3 +1,21 @@
+<?php
+$message_status = "";
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['book_appointment'])) {
+    $name = htmlspecialchars($_POST['full_name']);
+    $email = htmlspecialchars($_POST['email']);
+    $service = htmlspecialchars($_POST['service']);
+    $details = htmlspecialchars($_POST['project_details']);
+
+
+    if (!empty($name) && !empty($email)) {
+        $message_status = "<div class='alert-success'>Shukriya $name! Aapka appointment request receive ho gaya hai.</div>";
+    } else {
+        $message_status = "<div class='alert-danger'>Baraye meherbani saari fields sahi se fill karen.</div>";
+    }
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -165,6 +183,54 @@
 
         </div>
     </section>
+
+    <section id="appointment" class="appointment-section">
+        <div class="appointment-container">
+            <div class="appointment-info">
+                <h2>Book an Appointment</h2>
+                <p>Schedule a one-on-one consultation with our digital experts to discuss your project and growth goals.
+                </p>
+                <p class="tagline">Where marketing meets performance. Helping brands grow smarter, faster and stronger.
+                </p>
+            </div>
+            <div class="appointment-form">
+                <?php echo $message_status; ?>
+                <form action="index.php#appointment" method="POST">
+                    <div class="form-group">
+                        <label>Full Name</label>
+                        <input type="text" name="full_name" required placeholder="John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label>Email Address</label>
+                        <input type="email" name="email" required placeholder="john@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label>Choose a Service</label>
+                        <input type="hidden" name="service" id="selected-service" value="Digital Marketing" required>
+
+                        <div class="custom-select-wrapper">
+                            <div class="custom-select-trigger">
+                                <span>Select One</span>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="custom-options">
+                                <span class="custom-option selected" data-value="Digital Marketing">Digital
+                                    Marketing</span>
+                                <span class="custom-option" data-value="Web Development">Web Development</span>
+                                <span class="custom-option" data-value="App Development">App Development</span>
+                                <span class="custom-option" data-value="Social Media Marketing">Social Media
+                                    Marketing</span>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
 
 </body>
 
