@@ -63,6 +63,51 @@
         </div>
     </section>
 
+    <section id="services" class="services-section">
+        <h2 class="section-title">What We Offer</h2>
+        <p class="section-subtitle">We provide complete digital solutions designed to grow your business, increase
+            visibility, and maximize ROI.</p>
+
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fa-solid fa-bullhorn"></i>
+                <h3>Digital Marketing</h3>
+                <p>We help brands grow online with SEO, PPC advertising, content marketing, email campaigns, and
+                    conversion-focused strategies.</p>
+            </div>
+            <div class="service-card">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>We build fast, responsive, and modern websites including business sites, e-commerce stores, and
+                    custom web platforms tailored to your needs.</p>
+            </div>
+            <div class="service-card">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <h3>App Development</h3>
+                <p>We create user-friendly mobile applications for Android and iOS that deliver smooth performance and
+                    great user experience.</p>
+            </div>
+            <div class="service-card">
+                <i class="fa-solid fa-magnifying-glass-chart"></i>
+                <h3>SEO Services</h3>
+                <p>We improve your website ranking on search engines through on-page, off-page, and technical SEO
+                    strategies that drive organic traffic.</p>
+            </div>
+            <div class="service-card">
+                <i class="fa-solid fa-palette"></i>
+                <h3>Branding Services</h3>
+                <p>We help businesses build strong brand identities through logo design, visual identity systems, and
+                    creative direction.</p>
+            </div>
+            <div class="service-card">
+                <i class="fa-solid fa-share-nodes"></i>
+                <h3>Social Media Marketing</h3>
+                <p>We manage and grow your social presence with engaging content, paid campaigns, and audience-targeted
+                    strategies.</p>
+            </div>
+        </div>
+    </section>
+
 </body>
 
 </html>
