@@ -14,6 +14,7 @@
         <nav class="navbar">
             <div class="logo">Digii<span>conics</span></div>
             <ul class="nav-links">
+                <li><a href="#about">About Us</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#about">Why Us</a></li>
                 <li><a href="#workflow">Workflow</a></li>
@@ -51,6 +52,15 @@
             </div>
         </div>
 
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="about-content">
+            <h2>Why Digiiconics is Your <span>Digital Growth Partner</span></h2>
+            <p>We are more than a service provider. We are your growth engine in the digital world. From strategy to
+                execution, we help brands scale with performance-driven solutions.</p>
+            <a href="#appointment" class="btn btn-gold">Learn More About Us</a>
+        </div>
     </section>
 
 </body>
