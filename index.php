@@ -22,6 +22,16 @@
             </ul>
         </nav>
 
+        <div class="hero-content">
+            <h1>Digiiconics is the Best <span>Digital Marketing Agency</span></h1>
+            <p>Digiiconics helps businesses grow in the digital world through result-driven marketing, modern web
+                solutions, and powerful app development. We focus on creating impactful digital experiences that
+                generate leads, boost visibility, and accelerate business growth.</p>
+            <div class="hero-btns">
+                <a href="#appointment" class="btn btn-gold">Get Started Today</a>
+                <a href="#services" class="btn btn-outline">Explore Our Services</a>
+            </div>
+        </div>
     </header>
 
 </body>
