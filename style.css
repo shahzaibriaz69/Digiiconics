@@ -165,11 +165,45 @@ span { color: var(--accent-gold); }
     padding: 2.5rem;
     border-radius: 8px;
     text-align: center;
-    border-bottom: 4px solid var(--accent-gold);
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
+    border: 1px solid rgba(255, 255, 255, 0.03);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.stat-card:hover {
+    transform: translateY(-10px); 
+    border-color: rgba(230, 185, 64, 0.4); 
+    box-shadow: 0 10px 30px rgba(230, 185, 64, 0.15); 
 }
 
 .stat-card h3 {
     font-size: 2.5rem;
     color: var(--accent-gold);
     margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+}
+
+
+.stat-card:hover h3 {
+    transform: scale(1.05);
+}
+
+
+.stat-card::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0; 
+    height: 4px;
+    background-color: var(--accent-gold);
+    transition: all 0.4s ease;
+    transform: translateX(-50%);
+}
+
+
+.stat-card:hover::after {
+    width: 100%;
 }
